@@ -12,7 +12,7 @@ combine_as_imports = true
 testpaths = [
     "tests",
 ]
-addopts = "-vvvv --cov=suumo_notification --cov-report=term-missing"
+addopts = "-vvvv --cov=suumo_notification --cov=src --cov-report=term-missing"
 junit_family = "xunit2"
 
 [tool.mypy]

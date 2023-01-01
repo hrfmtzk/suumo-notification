@@ -1,0 +1,4 @@
+aws-lambda-powertools
+beautifulsoup4
+boto3
+types-beautifulsoup4

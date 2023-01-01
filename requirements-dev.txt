@@ -1,7 +1,12 @@
 -r requirements.txt
+-r src/scraper/requirements.txt
 
 black
+boto3-stubs[essential]
 flake8
 isort
 mypy
+moto
 pytest==6.2.5
+pytest-cov
+pytest-mock
